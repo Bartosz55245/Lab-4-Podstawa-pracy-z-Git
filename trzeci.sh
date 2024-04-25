@@ -12,7 +12,7 @@ fi
 
 liczba="$2"
 
-for ((i=1; i<=$num_files; i++)); do
+for ((i=1; i<=$liczba; i++)); do
 nazwapliku="log${i}.txt"
 echo "Nazwa pliku: $nazwapliku" > "$nazwapliku"
 echo "Nazwa skryptu: $0" >> "$nazwapliku"
